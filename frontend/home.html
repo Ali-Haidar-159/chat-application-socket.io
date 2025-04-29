@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <title>Chat App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- milligram connection -->
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+        <!-- my-css connection -->
+        <link rel="stylesheet" href="/home.css">
+
+    </head>
+
+    <body>
+
+        <header></header>
+
+        <main>
+
+            <div id="mainDiv">
+
+                <h4>User ID : <span style="color: tomato;" id="user"></span></h4>
+
+                <div id="historyDiv">
+
+                    <ul id="history">
+                        <!-- <li>aa</li>
+                        <li>aa</li>
+                        <li>aa</li>
+                        <li>aa</li>
+                        <li>aa</li> -->
+                    </ul>
+
+                </div>
+
+                <div id="fieldsDiv">
+
+                    <div id="messageDiv">
+
+                        <input type="text" name="msg" id="msg" placeholder="Enter message here">
+                        <button id="sendBtn">SEND</button>
+
+                    </div>
+
+                    <div id="roomDiv">
+
+                        <input type="text" name="room" id="room" placeholder="Enter the room code ">
+                        <button id="joinBtn">JOIN</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer></footer>
+
+        <!-- JS connection -->
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="homeJS.js"></script>
+        
+    </body>
+
+</html>

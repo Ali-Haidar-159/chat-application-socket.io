@@ -1,0 +1,51 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Build directories (if you are using React or bundlers like Webpack)
+build/
+dist/
+
+# MongoDB dump files
+dump/
+
+# Socket.IO temp files (very rare, but good to ignore temp)
+*.sock
+
+# IDE related files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage reports (if you use testing tools like Jest)
+coverage/
+
+# Optional: Ignore database local files if generated
+*.local
+
+# Optional: If you use html2pdf.js or similar
+*.pdf
+
+# Temporary files
+tmp/
+temp/
+
+# NPM package-lock or Yarn lock (optional, depends if you want to ignore)
+# package-lock.json
+# yarn.lock
